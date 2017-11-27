@@ -249,7 +249,6 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/editaddressdialog.cpp \
     src/qt/bitcoinaddressvalidator.cpp \
     src/alert.cpp \
-    src/version.cpp \
     src/sync.cpp \
     src/util.cpp \
     src/hash.cpp \
@@ -313,7 +312,8 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/mintingfilterproxy.cpp \
     src/kernelrecord.cpp \
 	src/clientversion.cpp \
-	src/ui_interface.cpp
+	src/ui_interface.cpp \
+	src/uint256.h
 
 RESOURCES += src/qt/bitcoin.qrc
 
