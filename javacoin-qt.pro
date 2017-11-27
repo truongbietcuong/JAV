@@ -312,7 +312,8 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/mintingtablemodel.cpp \
     src/qt/mintingfilterproxy.cpp \
     src/kernelrecord.cpp \
-	src/clientversion.cpp
+	src/clientversion.cpp \
+	src/ui_interface.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
