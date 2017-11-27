@@ -232,7 +232,8 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/mintingview.h \
     src/qt/mintingtablemodel.h \
     src/qt/mintingfilterproxy.h \
-    src/kernelrecord.h
+    src/kernelrecord.h \
+	src/noui.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -311,7 +312,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/mintingtablemodel.cpp \
     src/qt/mintingfilterproxy.cpp \
     src/kernelrecord.cpp \
-	src/clientversion.cpp \
+	src/clientversion.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
