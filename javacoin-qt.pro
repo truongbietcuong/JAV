@@ -241,7 +241,10 @@ HEADERS += src/qt/bitcoingui.h \
 	src/tinyformat.h \
 	src/random.h \
 	src/timedata.h \
-	src/warnings.h
+	src/warnings.h \
+	src/bech32.h \
+	src/chainparams.h \
+	src/chainparamsbase.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -327,7 +330,10 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/utilstrencodings.cpp \
 	src/random.cpp \
 	src/timedata.cpp \
-	src/warnings.cpp 
+	src/warnings.cpp \
+	src/bech32.cpp \
+	src/chainparams.cpp \
+	src/chainparamsbase.h
 
 RESOURCES += src/qt/bitcoin.qrc
 
