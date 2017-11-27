@@ -266,7 +266,15 @@ HEADERS += src/qt/bitcoingui.h \
 	src/validationinterface.h \
 	src/scheduler.h \
 	src/reverselock.h \
-	src/versionbits.h
+	src/versionbits.h \
+	src/prevector.h \
+	src/httpserver.h \
+	src/httprpc.h \
+	src/miner.h \
+	src/net_processing.h \
+	src/blockencodings.h \
+	src/merkleblock.h
+	src/netmessagemaker.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -369,7 +377,13 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/utiltime.cpp \
 	src/validationinterface.cpp \
 	src/scheduler.cpp \
-	src/versionbits.cpp
+	src/versionbits.cpp \
+	src/httpserver.cpp \
+	src/httprpc.cpp \
+	src/miner.cpp \
+	src/net_processing.cpp \
+	src/blockencodings.cpp \
+	src/merkleblock.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
