@@ -245,7 +245,28 @@ HEADERS += src/qt/bitcoingui.h \
 	src/bech32.h \
 	src/chainparams.h \
 	src/chainparamsbase.h \
-	src/pubkey.h
+	src/pubkey.h \
+	src/chain.h \
+	src/arith_uint256.h \
+	src/pow.h \
+	src/reverse_iterator.h \
+	src/validation.h \
+	src/cuckoocache.h \
+	src/fs.h \
+	src/txmempool.h \
+	src/amount.h \
+	src/coins.h \
+	src/memusage.h \
+	src/indirectmap.h \
+	src/compressor.h \
+	src/core_memusage.h \
+	src/utilmoneystr.h \
+	src/utiltime.h \
+	src/undo.h \
+	src/validationinterface.h \
+	src/scheduler.h \
+	src/reverselock.h \
+	src/versionbits.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -335,7 +356,20 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/bech32.cpp \
 	src/chainparams.cpp \
 	src/chainparamsbase.cpp \
-	src/pubkey.cpp
+	src/pubkey.cpp \
+	src/chain.cpp \
+	src/arith_uint256.cpp \
+	src/pow.cpp \
+	src/validation.cpp \
+	src/fs.cpp \
+	src/txmempool.cpp \
+	src/coins.cpp \
+	src/compressor.cpp \
+	src/utilmoneystr.cpp \
+	src/utiltime.cpp \
+	src/validationinterface.cpp \
+	src/scheduler.cpp \
+	src/versionbits.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
