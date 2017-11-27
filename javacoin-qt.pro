@@ -273,8 +273,12 @@ HEADERS += src/qt/bitcoingui.h \
 	src/miner.h \
 	src/net_processing.h \
 	src/blockencodings.h \
-	src/merkleblock.h
-	src/netmessagemaker.h
+	src/merkleblock.h \
+	src/netmessagemaker.h \
+	src/dbwrapper.h \
+	src/torcontrol.h \
+	src/addrdb.h \
+	src/threadinterrupt.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -383,7 +387,11 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/miner.cpp \
 	src/net_processing.cpp \
 	src/blockencodings.cpp \
-	src/merkleblock.cpp
+	src/merkleblock.cpp \
+	src/dbwrapper.cpp \
+	src/torcontrol.cpp \
+	src/addrdb.cpp \
+	src/threadinterrupt.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
