@@ -1,7 +1,7 @@
 TEMPLATE = app
-TARGET = peercoin-qt
-macx:TARGET = "Peercoin-Qt"
-VERSION = 0.6.1
+TARGET = java-qt
+macx:TARGET = "JavaCoin-Qt"
+VERSION = 0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network core
 greaterThan(QT_MAJOR_VERSION, 4):QT+=widgets
@@ -427,7 +427,7 @@ macx:HEADERS += src/qt/macdockiconhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += BOOST_NO_CXX11_SCOPED_ENUMS MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/peercoin.icns
+macx:ICON = src/qt/res/icons/javacoin.icns
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread
