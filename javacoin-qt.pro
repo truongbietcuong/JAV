@@ -239,7 +239,9 @@ HEADERS += src/qt/bitcoingui.h \
 	src/netaddress.h \
 	src/utilstrencodings.h \
 	src/tinyformat.h \
-	src/random.h
+	src/random.h \
+	src/timedata.h \
+	src/warnings.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -323,7 +325,9 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/uint256.cpp \
 	src/netaddress.cpp \
 	src/utilstrencodings.cpp \
-	src/random.cpp
+	src/random.cpp \
+	src/timedata.cpp \
+	src/warnings.cpp 
 
 RESOURCES += src/qt/bitcoin.qrc
 
