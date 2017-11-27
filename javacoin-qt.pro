@@ -238,7 +238,8 @@ HEADERS += src/qt/bitcoingui.h \
 	src/streams.h \
 	src/netaddress.h \
 	src/utilstrencodings.h \
-	src/tinyformat.h
+	src/tinyformat.h \
+	src/random.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -321,7 +322,8 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/ui_interface.cpp \
 	src/uint256.cpp \
 	src/netaddress.cpp \
-	src/utilstrencodings.cpp
+	src/utilstrencodings.cpp \
+	src/random.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
