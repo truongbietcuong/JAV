@@ -261,6 +261,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/bloom.cpp \
     src/checkpoints.cpp \
     src/addrman.cpp \
+	src/base58.cpp \
     src/db.cpp \
     src/walletdb.cpp \
     src/qt/clientmodel.cpp \
@@ -309,7 +310,8 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/mintingview.cpp \
     src/qt/mintingtablemodel.cpp \
     src/qt/mintingfilterproxy.cpp \
-    src/kernelrecord.cpp
+    src/kernelrecord.cpp \
+	src/clientversion.cpp \
 
 RESOURCES += src/qt/bitcoin.qrc
 
