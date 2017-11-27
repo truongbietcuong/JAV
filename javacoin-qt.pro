@@ -244,7 +244,8 @@ HEADERS += src/qt/bitcoingui.h \
 	src/warnings.h \
 	src/bech32.h \
 	src/chainparams.h \
-	src/chainparamsbase.h
+	src/chainparamsbase.h \
+	src/pubkey.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -333,7 +334,8 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/warnings.cpp \
 	src/bech32.cpp \
 	src/chainparams.cpp \
-	src/chainparamsbase.h
+	src/chainparamsbase.cpp \
+	src/pubkey.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
 
